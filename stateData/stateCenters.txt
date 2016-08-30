@@ -1,0 +1,51 @@
+Alabama:12.1 mi (19.5 km) southwest of Clanton:32.7784 86.9290
+Alaska:77.1 mi (124.1 km) northwest of Denali:64.0610 152.2307
+Arizona:49.7 mi (80.0 km) east-southeast of Prescott:34.2740 111.6582
+Arkansas:14.2 mi (22.9 km) northwest of Little Rock:34.8938 92.4429
+California:37.4 mi (60.2 km) northeast of Madera:37.1992 119.4505
+Colorado:29.1 mi (46.8 km) northwest of Pikes Peak,:38.9979 105.5495
+Connecticut:1.1 mi (1.8 km) east of East Berlin:41.6220 72.7272
+Delaware:11.7 mi (18.8 km) south of Dover:38.9895 75.5051
+District of Columbia:Near 3rd and P Streets, Northwest:38.9101 77.0147
+Florida:5.8 mi (9.3 km) northwest of Brooksville:28.6282 82.4426
+Georgia:17.7 mi (28.5 km) southeast of Macon:32.64405 83.4418
+Hawaii:27.7 mi (44.6 km) off-shore south of Wailea-Makena:20.2951 156.3720
+Idaho:21.4 mi (34.4 km) west-southwest of Challis:44.3538 114.6086
+Illinois:28.8 mi (46.3 km) northeast of Springfield:40.0411 89.1965
+Indiana:10.8 mi (17.4 km) northwest of Indianapolis:39.8938 86.2818
+Iowa:7 mi (11 km) northeast of Ames:42.0753 93.4959
+Kansas:22.6 mi (36.4 km) northeast of Great Bend:38.4949 98.3801
+Kentucky:3.4 mi (5.5 km) southwest of Lebanon:37.5360 85.3021
+Louisiana:5.8 mi (9.3 km) southeast of Marksville:31.0689 91.9952
+Maine:12.6 mi (20.3 km) northwest of Dover-Foxcroft:45.3702 69.2438
+Maryland:12.6 mi (20.3 km) northwest of Davidsonville:39.0550 76.7909
+Massachusetts:Irving St. and Wellington St., Worcester:42.2596 71.8083
+Michigan:7.7 mi (12.4 km) west of Cadillac:44.3461 85.4114
+Minnesota:10 mi (16 km) southwest of Brainerd:46.2810 94.3046
+Mississippi:9 mi (14 km) west-northwest of Carthage:32.7351 89.6680
+Missouri:21 mi (34 km) southwest of Jefferson City:38.3568 92.4571
+Montana:10.1 mi (16.3 km) west of Lewistown:47.0527 109.6450
+Nebraska:12.4 mi (20.0 km) northwest of Broken Bow:41.5392 99.7968
+Nevada:26 mi (42 km) southeast of Austin:39.3306 116.6268
+New Hampshire:2.6 mi (4.2 km) east of Ashland:43.6805 71.5818
+New Jersey:4.3 mi (6.9 km) southeast of Trenton:40.1907 74.6733
+New Mexico:13.8 mi (22.2 km) south-southwest of Willard:34.4066 106.1128
+New York:11.5 mi (18.5 km) south-southeast of Oneida:42.9543 75.5262
+North Carolina:12.7 mi (20.4 km) northwest of Sanford:35.5579 79.3856
+North Dakota:2.7 mi (4.3 km) southwest of McClusky:47.4499 100.4674
+Ohio:24.9 mi (40.1 km) north-northeast of Columbus:40.2863 82.7938
+Oklahoma:4.4 mi (7.1 km) south of Edmond:35.5910 97.4943
+Oregon:29.1 mi (46.8 km) southeast of Prineville:43.9336 120.5617
+Pennsylvania:2.6 mi (4.2 km) southwest of Bellefonte, in State College:40.8786 77.7985
+Rhode Island:2.4 mi (3.9 km) west of Crompton:41.6762 71.5562
+South Carolina:9.7 mi (15.6 km) southeast of Columbia:33.9169 80.8957
+South Dakota:7.9 mi (12.7 km) northeast of Pierre:44.4446 100.2282
+Tennessee:2.5 mi (4.0 km) northeast of Murfreesboro:35.8605 86.3504
+Texas:23.7 mi (38.1 km) north of Brady:31.4789 99.3287
+Utah:3.1 mi (5.0 km) northwest of Manti:39.3057 111.6685
+Vermont:3.7 mi (6.0 km) southeast of Roxbury:44.0688 72.6663
+Virginia:16.6 mi (26.7 km) west of Buckingham:37.5229 78.8531
+Washington:7 mi (11 km) west-southwest of Wenatchee:47.3822 120.4505
+West Virginia:4.9 mi (7.9 km) east-southeast of Sutton:38.6409 80.6230
+Wisconsin:9.3 mi (15.0 km) east-southeast of Marshfield:44.6243 89.9941
+Wyoming:60.6 mi (97.5 km) east-northeast of Lander:42.9959 107.5527
