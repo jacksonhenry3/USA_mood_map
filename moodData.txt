@@ -1,51 +1,51 @@
-Mississippi,0.590909090909
-Oklahoma,-0.464285714286
-Delaware,-0.181818181818
-Minnesota,-0.517857142857
-Illinois,-0.3
-Arkansas,-0.285714285714
-New Mexico,0.8
-Indiana,0.315789473684
-Maryland,0.888888888889
-Louisiana,0.7
-Idaho,0.5
-Wyoming,-0.75
-Tennessee,0.318181818182
-Arizona,0.279069767442
-Iowa,0.0
-Michigan,0.413793103448
-Kansas,0.727272727273
-Utah,0.47619047619
-Virginia,-0.19512195122
-Oregon,0.583333333333
-Connecticut,-0.857142857143
-Montana,0.958333333333
-California,0.131868131868
-Massachusetts,0.363636363636
-West Virginia,-0.8
-South Carolina,0.9
+Mississippi,0.380952380952
+Oklahoma,-0.258064516129
+Delaware,-0.583333333333
+Minnesota,0.444444444444
+Illinois,0.413793103448
+Arkansas,0.884615384615
+New Mexico,0.421052631579
+Indiana,0.439024390244
+Maryland,0.5
+Louisiana,0.805970149254
+Idaho,0.461538461538
+Wyoming,0.666666666667
+Tennessee,0.620689655172
+Arizona,0.468468468468
+Iowa,0.727272727273
+Michigan,0.571428571429
+Kansas,0.760869565217
+Utah,0.608695652174
+Virginia,0.625
+Oregon,0.603448275862
+Connecticut,-0.166666666667
+Montana,0.875
+California,0.644329896907
+Massachusetts,0.842105263158
+West Virginia,0.375
+South Carolina,0.47619047619
 New Hampshire,0.75
-Wisconsin,0.444444444444
-Vermont,0.125
-Georgia,0.204545454545
-North Dakota,0.375
-Pennsylvania,0.25
-Florida,0.45871559633
-Alaska,0.931506849315
-Kentucky,0.222222222222
-Hawaii,0.242424242424
-Nebraska,0.4
-Missouri,-0.615384615385
-Ohio,0.1
-Alabama,0.24
-New York,0.761363636364
-South Dakota,0.833333333333
-Colorado,0.0333333333333
-New Jersey,0.583333333333
-Washington,0.485294117647
-North Carolina,0.357142857143
-District of Columbia,0.0
-Texas,0.123076923077
-Nevada,-0.3
-Maine,0.521739130435
-Rhode Island,0.5
+Wisconsin,0.346153846154
+Vermont,0.875
+Georgia,0.306451612903
+North Dakota,0.833333333333
+Pennsylvania,0.6875
+Florida,0.304195804196
+Alaska,0.43137254902
+Kentucky,0.55
+Hawaii,0.620689655172
+Nebraska,0.615384615385
+Missouri,-0.15625
+Ohio,0.522222222222
+Alabama,0.829268292683
+New York,0.762645914397
+South Dakota,0.9
+Colorado,0.0338983050847
+New Jersey,0.72
+Washington,0.544
+North Carolina,-0.516949152542
+District of Columbia,0.5
+Texas,0.38418079096
+Nevada,0.4
+Maine,0.779411764706
+Rhode Island,0.833333333333
