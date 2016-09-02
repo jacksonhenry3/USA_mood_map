@@ -3,10 +3,8 @@ import re
 from sklearn.externals import joblib
 from numpy import loadtxt,transpose
 import time
+
 start_time = time.time()
-
-
-
 
 def oAuth():
     print("authorising")
@@ -18,12 +16,7 @@ def oAuth():
     api       = tweepy.API(auth)
     return(api)
 
-
-#print("loading model components")
-# load in the model components
-#clf               = joblib.load('pkldModelComponents/tweetSentimentClassifier.pkl') #classifier
-#count_vect        = joblib.load('pkldModelComponents/countVectorizer.pkl')          #tweet vetorizer
-#tfidf_transformer = joblib.load('pkldModelComponents/tfidf_transformer.pkl')        #tfidf calc
+# generate the model
 print('generating model')
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.feature_extraction.text import TfidfTransformer
@@ -78,22 +71,35 @@ class stateTwitterMoodListener(tweepy.StreamListener):
                 statesAndMoods[state][1] += 1
                 updateData()
 
-    # def apoptos(self):
-    #     self.stream.disconnect()
+    def apoptos(self):
+        self.stream.disconnect()
 
 
 
 def updateData():
-    f = open('moodData.txt','w')
+    f = open('../moodData/data.json','w')
     dt = (time.time() - start_time)
-    print(dt)
-    if dt>200:
-        listener.stream.disconnect()
+    f.write('{')
     for state in statesAndMoods:
+
         totalMood   = statesAndMoods[state][0]
         totalTweets = statesAndMoods[state][1]
-        tweetRate   = totalTweets/dt
-        f.write(state+","+str(float(totalMood)/totalTweets)+'\n')
+        mood = str(float(totalMood)/totalTweets)
+        x = statesAndMoods[state][2]
+        y = statesAndMoods[state][3]
+        # if state != statesAndMoods.keys()[-1]:
+        #     f.write('{"'+state+'":['+mood+','+str(x)+','+str(y)+']},\n')
+        # else:
+        #     f.write('{"'+state+'":"'+str(float(totalMood)/totalTweets)+'"}\n')
+        #     f.write(']')
+        if state != statesAndMoods.keys()[-1]:
+            f.write('"'+state+'":'+mood+',\n')
+        else:
+            f.write('"'+state+'":'+mood+'}\n')
+            # f.write('}')
+        
+
+    
     f.close()
 
 api = oAuth()
@@ -101,12 +107,21 @@ api = oAuth()
 print("loading state data")
 statesAndCenters   = loadtxt("stateData/stateCenters.txt",dtype = str,delimiter  = ":",usecols  = (0,2))
 states             = statesAndCenters[:,0]
-# centers            = statesAndCenters[:,1]
-statesAndMoods = dict(zip(states, transpose([[0] * len(states),[1] * len(states)] ) ))
-# print statesAndMoods
+centers = []
+for i,center in enumerate(statesAndCenters[:,1]):
+    coords = center.split(' ')
+    coords[0] = float(coords[0])
+    coords[1] = float(coords[1])
+    centers.append(coords)
+import numpy as np
+centers = np.array(centers)
+statesAndMoods = dict(zip(states, transpose([[0] * len(states),[1] * len(states),centers[:,0],centers[:,1]] ) ))
 
 print("initializing listener")
 listener = stateTwitterMoodListener(states)
 listener.startListening()
 
 print("initialized")
+testVar = raw_input("t for terminate")
+# if testVar == 't':
+#     listener.apoptos()
