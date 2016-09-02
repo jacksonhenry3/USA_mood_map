@@ -26,7 +26,8 @@ import pandas as pd
 
 
 # 0 is sad, 1 is happy
-dat    = pd.read_csv('sentimentTrainingData/cleanedTweetSentimentAnalysisDataset.txt',sep=None,engine='python',usecols = [1,3]).values
+#dat    = pd.read_csv('sentimentTrainingData/cleanedTweetSentimentAnalysisDataset.txt',sep=None,engine='python',usecols = [1,3]).values
+dat    = pd.read_csv('sentimentTrainingData/xab',sep=None,engine='python',usecols = [1,3]).values
 tweets = dat[:,1]
 happy  = dat[:,0].astype(float)
 
@@ -123,5 +124,5 @@ listener.startListening()
 
 print("initialized")
 testVar = raw_input("t for terminate")
-# if testVar == 't':
-#     listener.apoptos()
+if testVar == 't':
+     listener.apoptos()
