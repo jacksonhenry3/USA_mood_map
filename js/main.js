@@ -1,5 +1,9 @@
 var runs =0;
-var colorFunction = d3.interpolate("rgb(200,0,0)", "rgb(0,200,80)");
+var colorFunction = d3.scaleLinear()
+    .domain([-1, 0, 1])
+    .range(['#FF0000', '#EEEEEE', '#00FF00']);
+
+
 var sampleData
 function tooltipHtml(n, mood)
 { /* function to create html content string in tooltip div. */
@@ -31,7 +35,7 @@ window.setInterval(
 						sampleData[d] = 
 										{
 											mood:mood,
-											color:colorFunction((mood+1)/2)
+											color:colorFunction(mood)
 										}; 
 					}
 				);
@@ -51,4 +55,4 @@ window.setInterval(
 				}
 			);
 		}
-,200)
+,10)

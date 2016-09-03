@@ -60,7 +60,7 @@ function mouseOver(d,toolTip,mood)
 	d3.select("#tooltip")
 		.transition()
 		.duration(200)
-		.style("opacity", .9);      
+		.style("stroke", '#AAA');      
 	
 	d3.select("#tooltip")
 		.html(toolTip(d.name, mood))  
@@ -73,7 +73,7 @@ function mouseOut()
 	d3.select("#tooltip")
 		.transition()
 		.duration(500)
-		.style("opacity", 0);      
+		.style("stoke", "#FFF");      
 }
 
 states.draw = function(moodData,tooltip)
