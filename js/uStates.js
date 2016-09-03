@@ -60,7 +60,7 @@ function mouseOver(d,toolTip,mood)
 	d3.select("#tooltip")
 		.transition()
 		.duration(200)
-		.style("stroke", '#AAA');      
+		.style("opacity", '1');      
 	
 	d3.select("#tooltip")
 		.html(toolTip(d.name, mood))  
@@ -73,17 +73,20 @@ function mouseOut()
 	d3.select("#tooltip")
 		.transition()
 		.duration(500)
-		.style("stoke", "#FFF");      
+		.style("opacity", "0");      
 }
 
 states.draw = function(moodData,tooltip)
 {
+	scaleFactor = d3.select("#statesvg").node().width.baseVal.value/930
+
 	d3.select("#statesvg").selectAll(".state")
 		.data(statePaths)
 		.enter()
 		.append("path")
 		.attr("class","state")
 		.attr("d",function(d){return d.path;})
+		.attr("transform","scale("+scaleFactor+")")
 		.style("fill",function(d){return moodData[d.abbr].color; })
 		.on("mouseover", function(d){mouseOver(d,tooltip,moodData[d.abbr].mood)})
 		.on("mouseout", mouseOut);
