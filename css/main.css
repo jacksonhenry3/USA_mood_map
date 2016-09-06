@@ -10,17 +10,17 @@ body{
 /*590/930*/
  svg
  {
- 	width:90vw;
- 	height:57.1vw;
+
  	margin-left:5vw;
+ 	/*background: red;*/
  }
 .state{
 	/*fill: none;*/
 	fill-opacity:.8;
-	opacity : 1;
+	opacity : .6;
 	stroke: #FFF;
 	transition: all .2s;
-	stroke-width:1px;
+	stroke-width:3px;
 }
 .state:hover{
 	background-color:teal;

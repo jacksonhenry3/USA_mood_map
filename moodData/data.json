@@ -1,51 +1,946 @@
-{"Mississippi":-0.285714285714,
-"Oklahoma":-0.37037037037,
-"Delaware":-0.133333333333,
-"Minnesota":0.3125,
-"Illinois":-0.0952380952381,
-"Arkansas":0.394736842105,
-"New Mexico":0.153846153846,
-"Indiana":0.439393939394,
-"Maryland":0.0512820512821,
-"Louisiana":-0.117647058824,
-"Idaho":0.315789473684,
-"Wyoming":-0.125,
-"Tennessee":-0.0326086956522,
-"Arizona":0.0803571428571,
-"Iowa":0.638888888889,
-"Michigan":0.170454545455,
-"Kansas":0.513157894737,
-"Utah":0.117647058824,
-"Virginia":0.462585034014,
-"Oregon":0.528301886792,
-"Connecticut":0.0,
-"Montana":0.888888888889,
-"California":0.8,
-"Massachusetts":-0.117647058824,
-"West Virginia":0.928571428571,
-"South Carolina":-0.125,
-"New Hampshire":0.909090909091,
-"Wisconsin":0.550724637681,
-"Vermont":0.461538461538,
-"Georgia":0.171052631579,
-"North Dakota":-0.125,
-"Pennsylvania":-0.32,
-"Florida":-0.282744282744,
-"Alaska":0.288461538462,
-"Kentucky":-0.0789473684211,
-"Hawaii":0.204081632653,
-"Nebraska":0.722222222222,
-"Missouri":0.285714285714,
-"Ohio":0.0820895522388,
-"Alabama":0.141025641026,
-"New York":0.783163265306,
-"South Dakota":0.8,
-"Colorado":0.48,
-"New Jersey":0.535714285714,
-"Washington":0.24043715847,
-"North Carolina":0.385964912281,
-"District of Columbia":0.5,
-"Texas":0.278225806452,
-"Nevada":-0.173913043478,
-"Maine":0.451612903226,
-"Rhode Island":0.571428571429}
+{
+    "Alabama": {
+        "averageMood": -0.5, 
+        "totalMood": -2.0, 
+        "totalTweets": 4, 
+        "tweets": [
+            {
+                "mood": -1.0, 
+                "text": "How the f*ckkkkkkkkk\ud83d\ude2d\ud83d\ude2d\ud83d\ude2d\ud83d\ude2d\ud83d\ude2d\ud83d\ude2d\ud83d\ude2d\ud83d\ude2d\ud83d\ude2d\ud83d\ude2d I'm missing a free Usher concert. https://t.co/NclpHSXIDx"
+            }, 
+            {
+                "mood": 1.0, 
+                "text": "thank youuuuuuu https://t.co/5boIHDWkeu"
+            }, 
+            {
+                "mood": -1.0, 
+                "text": "He play all day, never a dual moment \ud83d\ude02"
+            }, 
+            {
+                "mood": -1.0, 
+                "text": " your cover photo was the worst time of my life"
+            }
+        ]
+    }, 
+    "Alaska": {
+        "averageMood": 0, 
+        "totalMood": 0, 
+        "totalTweets": 0, 
+        "tweets": []
+    }, 
+    "Arizona": {
+        "averageMood": 0.59999999999999998, 
+        "totalMood": 3.0, 
+        "totalTweets": 5, 
+        "tweets": [
+            {
+                "mood": 1.0, 
+                "text": "See our latest #Phoenix, AZ #job and click to apply: Staff Psychiatrist - https://t.co/7wRRElR0dU #Physician #Veterans #Hiring #CareerArc"
+            }, 
+            {
+                "mood": -1.0, 
+                "text": "If you're looking for work in #Mesa, AZ, check out this #job: https://t.co/4En8wNTIVm #Insurance #Hiring #CareerArc"
+            }, 
+            {
+                "mood": 1.0, 
+                "text": "See our latest #Tucson, AZ #job and click to apply: Teller Part Time East Tucson - https://t.co/VTmbakurU8 #Banking #Hiring #CareerArc"
+            }, 
+            {
+                "mood": 1.0, 
+                "text": "Can you recommend anyone for this #job? Project Coordinator - https://t.co/3fngR5a6eP #ProjectMgmt #Scottsdale, AZ #Hiring #CareerArc"
+            }, 
+            {
+                "mood": 1.0, 
+                "text": " on my way"
+            }
+        ]
+    }, 
+    "Arkansas": {
+        "averageMood": 0, 
+        "totalMood": 0, 
+        "totalTweets": 0, 
+        "tweets": []
+    }, 
+    "California": {
+        "averageMood": 0.65217391304347827, 
+        "totalMood": 15.0, 
+        "totalTweets": 23, 
+        "tweets": [
+            {
+                "mood": 1.0, 
+                "text": "God blessed me with the best friend I could ever ask 4 \ud83d\ude0c  https://t.co/3CdPT12Eun"
+            }, 
+            {
+                "mood": 1.0, 
+                "text": "If you're looking for work in #SanFrancisco, CA, check out this #job: https://t.co/QX8cGvIEum #Insurance #Hiring #CareerArc"
+            }, 
+            {
+                "mood": 1.0, 
+                "text": "This #job might be a great fit for you: Entry-Level Business Analyst- Campus Recruiting - https://t.co/heOyo19GBw #SanDiego, CA #Hiring"
+            }, 
+            {
+                "mood": 1.0, 
+                "text": "Interested in a #job in #SanFrancisco, CA? This could be a great fit: https://t.co/py8aLIPZtO #Banking #Hiring #CareerArc"
+            }, 
+            {
+                "mood": 1.0, 
+                "text": "We're #hiring! Click to apply: Kiva Video Editing Internship (194-557) - https://t.co/tceYbJl8ih #internship #SanFrancisco, California"
+            }, 
+            {
+                "mood": 1.0, 
+                "text": "Interested in a #job in #SanMateo, CA? This could be a great fit: https://t.co/NkX2fmSEwb #Sales #Hiring #CareerArc"
+            }, 
+            {
+                "mood": 1.0, 
+                "text": "This #job might be a great fit for you: Access Your Future Service Intern - RDO Equipment Co. - https://t.co/6AxQTa1hV9 #Hayward, CA"
+            }, 
+            {
+                "mood": 1.0, 
+                "text": "We're #hiring! Read about our latest #job opening here: Film Crew - https://t.co/9IdD8KkDld #Film #MovieTheatre #Bakersfield, CA #CareerArc"
+            }, 
+            {
+                "mood": 1.0, 
+                "text": "Want to work in #Brea, CA? View our latest opening: https://t.co/cSGU61Mhwa #Job #KellyJobs #KellyServices #Pharmaceutical #Jobs #Hiring"
+            }, 
+            {
+                "mood": 1.0, 
+                "text": "Interested in a #job in #SanFrancisco, CA? This could be a great fit: https://t.co/gcOe9fcxIw #SkilledTrade #Hiring #CareerArc"
+            }, 
+            {
+                "mood": 1.0, 
+                "text": "Can you recommend anyone for this #job? RIS/PACS Analyst, Radiology - Santa Cruz (64 hrs) - https://t.co/lTlRfJjDDg #IT #SantaCruz, CA"
+            }, 
+            {
+                "mood": 1.0, 
+                "text": "Can you recommend anyone for this #job? HHW Clerk - https://t.co/zTfVIcvBwo #GeneralScience #SanJose, CA #Hiring #CareerArc"
+            }, 
+            {
+                "mood": 1.0, 
+                "text": "This #job might be a great fit for you: Diet Clerk- Per Diem - https://t.co/8gOyf0W7gX #Labor #Burlingame, CA #Hiring #CareerArc"
+            }, 
+            {
+                "mood": 1.0, 
+                "text": "Can you recommend anyone for this #job? Barista (US) - https://t.co/frDYfH950D #Hospitality 201 3RD ST, #SANFRANCISCO, CA #Veterans #Hiring"
+            }, 
+            {
+                "mood": 1.0, 
+                "text": " can I get a follow?"
+            }, 
+            {
+                "mood": 1.0, 
+                "text": " amen! blessings my dear friends! https://t.co/h865ra3cu4"
+            }, 
+            {
+                "mood": 1.0, 
+                "text": " happy birthday boo!!!!!!"
+            }, 
+            {
+                "mood": -1.0, 
+                "text": "So that's how today's gonna be"
+            }, 
+            {
+                "mood": -1.0, 
+                "text": "You won't have a chance little man"
+            }, 
+            {
+                "mood": -1.0, 
+                "text": "Want to work in #PaloAlto, CA? View our latest opening: https://t.co/5eu7KaudPl #Job #meded #Accounting #Jobs https://t.co/1nTpuNLxAh"
+            }, 
+            {
+                "mood": 1.0, 
+                "text": " \ud83e\udd14 I still don't see your point but ok. Have a good day\ud83d\ude02\u270c\ufe0f"
+            }, 
+            {
+                "mood": 1.0, 
+                "text": "Thanks Michala :) i will eventually  https://t.co/XtQHWwMq9k"
+            }, 
+            {
+                "mood": -1.0, 
+                "text": "I'm just a hopeless romantic."
+            }
+        ]
+    }, 
+    "Colarado": {
+        "averageMood": 0, 
+        "totalMood": 0, 
+        "totalTweets": 0, 
+        "tweets": []
+    }, 
+    "Connecticut": {
+        "averageMood": 1.0, 
+        "totalMood": 1.0, 
+        "totalTweets": 1, 
+        "tweets": [
+            {
+                "mood": 1.0, 
+                "text": "Truth.  https://t.co/dvctZrddWd"
+            }
+        ]
+    }, 
+    "Delaware": {
+        "averageMood": 0, 
+        "totalMood": 0, 
+        "totalTweets": 0, 
+        "tweets": []
+    }, 
+    "Florida": {
+        "averageMood": 0.33333333333333331, 
+        "totalMood": 2.0, 
+        "totalTweets": 6, 
+        "tweets": [
+            {
+                "mood": 1.0, 
+                "text": " I've Never Cared For Anyone's Opinion Nigga Or Female So It's Quite Fine"
+            }, 
+            {
+                "mood": -1.0, 
+                "text": "CANT WAIT FOR THE WAT THE FRICK TOUR TO COME TO TALLY\ud83d\ude2d getter + wuki https://t.co/lO6FH6svJY"
+            }, 
+            {
+                "mood": 1.0, 
+                "text": "   This kinda explains it IMO https://t.co/ZzdCLlhPca"
+            }, 
+            {
+                "mood": -1.0, 
+                "text": "Bite that tattoo on your shoulder"
+            }, 
+            {
+                "mood": 1.0, 
+                "text": " This is beyond inspiring, I love it"
+            }, 
+            {
+                "mood": 1.0, 
+                "text": "https://t.co/uT26TEOeGM Walmart following DNC Convention rules. Democrats setting the pace."
+            }
+        ]
+    }, 
+    "Georgia": {
+        "averageMood": 0.5, 
+        "totalMood": 2.0, 
+        "totalTweets": 4, 
+        "tweets": [
+            {
+                "mood": 1.0, 
+                "text": " amen !! \ud83d\ude4f\ud83c\udffe\ud83d\ude4f\ud83c\udffe"
+            }, 
+            {
+                "mood": 1.0, 
+                "text": "  oooh...I see."
+            }, 
+            {
+                "mood": -1.0, 
+                "text": "So I slipped and ate it hard today at the pool at the RAC. No one helped but at least someone said my bathing suit was cute."
+            }, 
+            {
+                "mood": 1.0, 
+                "text": "Ain't that the truth? #Repost \n\u30fb\u30fb\u30fb @ Bjork Studio https://t.co/xI53YJbTdD"
+            }
+        ]
+    }, 
+    "Hawaii": {
+        "averageMood": 0, 
+        "totalMood": 0, 
+        "totalTweets": 0, 
+        "tweets": []
+    }, 
+    "Idaho": {
+        "averageMood": 1.0, 
+        "totalMood": 1.0, 
+        "totalTweets": 1, 
+        "tweets": [
+            {
+                "mood": 1.0, 
+                "text": " I love the blue! Sexy"
+            }
+        ]
+    }, 
+    "Illinois": {
+        "averageMood": -0.20000000000000001, 
+        "totalMood": -1.0, 
+        "totalTweets": 5, 
+        "tweets": [
+            {
+                "mood": 1.0, 
+                "text": "It's up to each and everyone of us to turn this country around for workers -Phil Neuenfeldt  #IAM2016 #Organize"
+            }, 
+            {
+                "mood": 1.0, 
+                "text": "1627 West Chase Avenue https://t.co/rdfsyvpdnH"
+            }, 
+            {
+                "mood": -1.0, 
+                "text": "A donation to  to cover up #TrumpUniversity's fraud is not a minor incident. Where is that Mexican judge? https://t.co/Z5hQYyN863"
+            }, 
+            {
+                "mood": -1.0, 
+                "text": " you are more patient than I. I find it dull, and I feel bad for Troi the whole time...which makes me dislike Riva."
+            }, 
+            {
+                "mood": -1.0, 
+                "text": "Why am i up like i got school?\ud83e\udd14"
+            }
+        ]
+    }, 
+    "Indiana": {
+        "averageMood": 0.0, 
+        "totalMood": 0.0, 
+        "totalTweets": 2, 
+        "tweets": [
+            {
+                "mood": -1.0, 
+                "text": "Good shit stop procrastinating that shit kills https://t.co/nqbTGCCCdI"
+            }, 
+            {
+                "mood": 1.0, 
+                "text": "Want to work in #Merrillville, IN? View our latest opening: https://t.co/TXiAD6HiV5 #LoveFashionLetsTalk #Retail https://t.co/RzXNYle341"
+            }
+        ]
+    }, 
+    "Iowa": {
+        "averageMood": -1.0, 
+        "totalMood": -1.0, 
+        "totalTweets": 1, 
+        "tweets": [
+            {
+                "mood": -1.0, 
+                "text": "I have such a busy day tomorrow \ud83d\ude44"
+            }
+        ]
+    }, 
+    "Kansas": {
+        "averageMood": 1.0, 
+        "totalMood": 1.0, 
+        "totalTweets": 1, 
+        "tweets": [
+            {
+                "mood": 1.0, 
+                "text": " same bro. \ud83d\udc4c\ud83c\udffb"
+            }
+        ]
+    }, 
+    "Kentucky": {
+        "averageMood": 1.0, 
+        "totalMood": 1.0, 
+        "totalTweets": 1, 
+        "tweets": [
+            {
+                "mood": 1.0, 
+                "text": "Love a bit of friendly competition? Head to Drake's(Paddock Shops) for stein hoisting and Octoberfest on tap! https://t.co/TOR8q3SJ7m"
+            }
+        ]
+    }, 
+    "Louisiana": {
+        "averageMood": 0.0, 
+        "totalMood": 0.0, 
+        "totalTweets": 4, 
+        "tweets": [
+            {
+                "mood": -1.0, 
+                "text": " I'll stay home if I need to wake up early"
+            }, 
+            {
+                "mood": 1.0, 
+                "text": " you're a damned fool"
+            }, 
+            {
+                "mood": -1.0, 
+                "text": "wanna be layed up. \ud83d\ude44"
+            }, 
+            {
+                "mood": 1.0, 
+                "text": " you the only one i recognized to run it."
+            }
+        ]
+    }, 
+    "Maine": {
+        "averageMood": 0, 
+        "totalMood": 0, 
+        "totalTweets": 0, 
+        "tweets": []
+    }, 
+    "Maryland": {
+        "averageMood": -1.0, 
+        "totalMood": -1.0, 
+        "totalTweets": 1, 
+        "tweets": [
+            {
+                "mood": -1.0, 
+                "text": "Smfh some gays be doing to much. Giving us a bad rep https://t.co/EsLaoW5R5B"
+            }
+        ]
+    }, 
+    "Massachusetts": {
+        "averageMood": 0.33333333333333331, 
+        "totalMood": 1.0, 
+        "totalTweets": 3, 
+        "tweets": [
+            {
+                "mood": -1.0, 
+                "text": "new magic tape day!! exactly what i need on this gloomy rainy day. thanks boo!!  \ud83d\udc96\ud83d\udc96\ud83d\udc96"
+            }, 
+            {
+                "mood": 1.0, 
+                "text": "They should make a law that you automatically get your birthday off of work every year"
+            }, 
+            {
+                "mood": 1.0, 
+                "text": "  I\u2019m talking about in general, not academic-specific \u2014 as I said, I\u2019ve let field experts see things in a few cases"
+            }
+        ]
+    }, 
+    "Michigan": {
+        "averageMood": -0.20000000000000001, 
+        "totalMood": -1.0, 
+        "totalTweets": 5, 
+        "tweets": [
+            {
+                "mood": -1.0, 
+                "text": "Gotta stop making stupid decisions because tomorrow isn't promised..."
+            }, 
+            {
+                "mood": 1.0, 
+                "text": "Can you recommend anyone for this #job in #GrandRapids, MI? https://t.co/agbXHLx5hS #EntryLevel #Hiring #CareerArc"
+            }, 
+            {
+                "mood": -1.0, 
+                "text": "Good luck to the Bentley Class of 2017 even Tho y'all not gonna need it"
+            }, 
+            {
+                "mood": 1.0, 
+                "text": "It's \"last first\" not \"first last\" you dummies"
+            }, 
+            {
+                "mood": -1.0, 
+                "text": "The Palmade in my hair is melting cause it's so fucking hot..."
+            }
+        ]
+    }, 
+    "Minnesota": {
+        "averageMood": 1.0, 
+        "totalMood": 2.0, 
+        "totalTweets": 2, 
+        "tweets": [
+            {
+                "mood": 1.0, 
+                "text": " that would be me have a nice time with mum"
+            }, 
+            {
+                "mood": 1.0, 
+                "text": "Want to work at Emerson Electric Co? We're #hiring in #Chanhassen, MN! Click for details: https://t.co/QRQ9bKNoOL https://t.co/wfJft15H4G"
+            }
+        ]
+    }, 
+    "Mississippi": {
+        "averageMood": 0, 
+        "totalMood": 0, 
+        "totalTweets": 0, 
+        "tweets": []
+    }, 
+    "Missouri": {
+        "averageMood": -1.0, 
+        "totalMood": -2.0, 
+        "totalTweets": 2, 
+        "tweets": [
+            {
+                "mood": -1.0, 
+                "text": "I had to visit....briefly....memories...Fort Lost in the Woods,\u2026 https://t.co/IbmvIkYlr8"
+            }, 
+            {
+                "mood": -1.0, 
+                "text": "I ain't talking bout much. Nothing but fucking and countin a few bucks"
+            }
+        ]
+    }, 
+    "Montana": {
+        "averageMood": 0, 
+        "totalMood": 0, 
+        "totalTweets": 0, 
+        "tweets": []
+    }, 
+    "Nebraska": {
+        "averageMood": 0.0, 
+        "totalMood": 0.0, 
+        "totalTweets": 2, 
+        "tweets": [
+            {
+                "mood": 1.0, 
+                "text": "     great news hope everything keeps going well"
+            }, 
+            {
+                "mood": -1.0, 
+                "text": "If im dead by the end of the year, blame it on craft singles"
+            }
+        ]
+    }, 
+    "Nevada": {
+        "averageMood": 0.0, 
+        "totalMood": 0.0, 
+        "totalTweets": 2, 
+        "tweets": [
+            {
+                "mood": 1.0, 
+                "text": "If you're looking for work in #LasVegas, NV, check out this #job: https://t.co/OBoUZzO6Ih #Education #Veterans #Hiring #CareerArc"
+            }, 
+            {
+                "mood": -1.0, 
+                "text": "DumbAss Media If U EverWorked N Govt Books&amp;ManualsGuidingU Thru EVERYTHING \"NoOneCanRemember It All ByHeart #HillaryClinton  #p2 #CNN #MSNBC"
+            }
+        ]
+    }, 
+    "New Hampshire": {
+        "averageMood": 0, 
+        "totalMood": 0, 
+        "totalTweets": 0, 
+        "tweets": []
+    }, 
+    "New Jersey": {
+        "averageMood": 1.0, 
+        "totalMood": 2.0, 
+        "totalTweets": 2, 
+        "tweets": [
+            {
+                "mood": 1.0, 
+                "text": ". kinda like doing roids is a slap in the face to your fans and the sport"
+            }, 
+            {
+                "mood": 1.0, 
+                "text": "ya bitch a groupie she wanna do me"
+            }
+        ]
+    }, 
+    "New Mexico": {
+        "averageMood": 0, 
+        "totalMood": 0, 
+        "totalTweets": 0, 
+        "tweets": []
+    }, 
+    "New York": {
+        "averageMood": 0.42857142857142855, 
+        "totalMood": 6.0, 
+        "totalTweets": 14, 
+        "tweets": [
+            {
+                "mood": 1.0, 
+                "text": "Can you recommend anyone for this #job? Mgr, Field Business Plannning - https://t.co/U1yFvDfMAV #Utilities #Brooklyn, NY #Hiring #CareerArc"
+            }, 
+            {
+                "mood": 1.0, 
+                "text": " girl you are in for a hell of a show! Doing stands or general admission?"
+            }, 
+            {
+                "mood": 1.0, 
+                "text": "8:30 am, CVS: \"Are you excited for the first day of school?\" \n\n10:00 am, buying lotto tickets, speedway: \"Can I see your ID? You look 17.\""
+            }, 
+            {
+                "mood": 1.0, 
+                "text": "See our latest #StonyBrook, NY #job and click to apply: Customer Service Associate I - https://t.co/UZh8HyIwuL #Hiring #CareerArc"
+            }, 
+            {
+                "mood": 1.0, 
+                "text": "NY bound \ud83d\uddfd Lets get this fw started \ud83d\udca5\n#oneyearago #newyork #bloodbrotherldn #readyornot\u2026 https://t.co/ryGNdQbsx7"
+            }, 
+            {
+                "mood": -1.0, 
+                "text": "Baby under glass\nDungeon row\nCoyote rape box\nIf there's stars in the sky\nOn the 4th of July\nLightning bug eyed banker talks\nDeny lost voices"
+            }, 
+            {
+                "mood": 1.0, 
+                "text": "WOW I should really start my summer work"
+            }, 
+            {
+                "mood": -1.0, 
+                "text": "Y'all dummies still fucking wit Jouert that shit Iraq with  dance hall music"
+            }, 
+            {
+                "mood": 1.0, 
+                "text": "When ur friends are psycho https://t.co/mlilfM8ZD2"
+            }, 
+            {
+                "mood": -1.0, 
+                "text": "When someone subtweets but doesn't tag you https://t.co/WkZdhr2rhz"
+            }, 
+            {
+                "mood": -1.0, 
+                "text": "Getting ready to head out"
+            }, 
+            {
+                "mood": 1.0, 
+                "text": " Happy Birthday!\ud83c\udf89\ud83d\ude01"
+            }, 
+            {
+                "mood": 1.0, 
+                "text": " 91 is going to be a new fearsome number across the league"
+            }, 
+            {
+                "mood": 1.0, 
+                "text": "my visual memory is astounding. I recognize images I've seen before and where they were, no matter how trivial"
+            }
+        ]
+    }, 
+    "North Carolina": {
+        "averageMood": 0.33333333333333331, 
+        "totalMood": 1.0, 
+        "totalTweets": 3, 
+        "tweets": [
+            {
+                "mood": -1.0, 
+                "text": "Want to work at Robert Half Finance &amp; Accounting? We're #hiring in #Durham, NC! Click for details: https://t.co/jV15enImE6 #Accounting"
+            }, 
+            {
+                "mood": 1.0, 
+                "text": "See our latest #Salisbury, NC #job and click to apply: Advanced Medical Support Assistant (Float) - https://t.co/7OUwebET7S #Healthcare"
+            }, 
+            {
+                "mood": 1.0, 
+                "text": "Done for the day! \ud83d\ude34\ud83e\udd17"
+            }
+        ]
+    }, 
+    "North Dakota": {
+        "averageMood": 0, 
+        "totalMood": 0, 
+        "totalTweets": 0, 
+        "tweets": []
+    }, 
+    "Ohio": {
+        "averageMood": 0.59999999999999998, 
+        "totalMood": 3.0, 
+        "totalTweets": 5, 
+        "tweets": [
+            {
+                "mood": 1.0, 
+                "text": "This #job might be a great fit for you: Social Worker II (PT/Cont) - https://t.co/zdmJlQZXMg #Healthcare #Columbus, OH #Hiring #CareerArc"
+            }, 
+            {
+                "mood": 1.0, 
+                "text": " I hope you're not! BTW, my boyfriend teases me ALL the time about liking you!! LOL \ud83d\ude1c\ud83d\ude09 https://t.co/mbXwPMfG4q"
+            }, 
+            {
+                "mood": 1.0, 
+                "text": "someone scoop\ud83d\udca8\ud83d\udca8"
+            }, 
+            {
+                "mood": -1.0, 
+                "text": " NO WAY \ud83d\ude2d\ud83d\ude31\ud83d\ude31\ud83d\ude31"
+            }, 
+            {
+                "mood": 1.0, 
+                "text": "Obama is the first President to visit Laos and idk how I feel about it #MixedEmotionsAndStickyRice"
+            }
+        ]
+    }, 
+    "Oklahoma": {
+        "averageMood": 0.0, 
+        "totalMood": 0.0, 
+        "totalTweets": 4, 
+        "tweets": [
+            {
+                "mood": -1.0, 
+                "text": "I should've just punched his ass . \ud83d\ude12"
+            }, 
+            {
+                "mood": 1.0, 
+                "text": "  chill, man. We are still elite company."
+            }, 
+            {
+                "mood": -1.0, 
+                "text": "Update: I talked too much yesterday. I shouldn't of yelled on the 4 wheeler. My throat feels 10x worse."
+            }, 
+            {
+                "mood": 1.0, 
+                "text": "Can't wait to watch  play baseball again\u26be\ufe0f"
+            }
+        ]
+    }, 
+    "Oregon": {
+        "averageMood": 1.0, 
+        "totalMood": 1.0, 
+        "totalTweets": 1, 
+        "tweets": [
+            {
+                "mood": 1.0, 
+                "text": "Want to work at Lowe's Distribution? We're #hiring in #Lebanon, OR! Click for details: https://t.co/5S3UcTAkXx #Job #SupplyChain #Jobs"
+            }
+        ]
+    }, 
+    "Pennsylvania": {
+        "averageMood": 0.20000000000000001, 
+        "totalMood": 1.0, 
+        "totalTweets": 5, 
+        "tweets": [
+            {
+                "mood": -1.0, 
+                "text": "CUT THE BELLY OF YA BLOCK\nCALL THAT SHIT A CSECTION"
+            }, 
+            {
+                "mood": 1.0, 
+                "text": "  I am obsessed with your pictures\ud83d\ude0d You're flawless. Love you, doll\ud83d\udc8b"
+            }, 
+            {
+                "mood": 1.0, 
+                "text": "Check out our very first #video! And while you're at it, #keep #watching more. Check out all the\u2026 https://t.co/a1s147qH7C"
+            }, 
+            {
+                "mood": -1.0, 
+                "text": "my stats prof has worn the same shirt the past 3 classes..."
+            }, 
+            {
+                "mood": 1.0, 
+                "text": "Hi Lily Valour https://t.co/cbUcRYvBSy"
+            }
+        ]
+    }, 
+    "Rhode Island": {
+        "averageMood": -1.0, 
+        "totalMood": -1.0, 
+        "totalTweets": 1, 
+        "tweets": [
+            {
+                "mood": -1.0, 
+                "text": "This shit just pisses me off"
+            }
+        ]
+    }, 
+    "South Carolina": {
+        "averageMood": -1.0, 
+        "totalMood": -1.0, 
+        "totalTweets": 1, 
+        "tweets": [
+            {
+                "mood": -1.0, 
+                "text": "PSA if you're 20 minutes from your family don't tell someone who's 9 hours away from their family that you're homesick \ud83d\udc8b"
+            }
+        ]
+    }, 
+    "South Dakota": {
+        "averageMood": 0, 
+        "totalMood": 0, 
+        "totalTweets": 0, 
+        "tweets": []
+    }, 
+    "Tennessee": {
+        "averageMood": 0.0, 
+        "totalMood": 0.0, 
+        "totalTweets": 2, 
+        "tweets": [
+            {
+                "mood": -1.0, 
+                "text": "  so pretty much everyone is hurt in some sort of way. Makeup works wonders when trying to cover up a bruised nose"
+            }, 
+            {
+                "mood": 1.0, 
+                "text": "  they have paid opportunities for fantasy players and sponsors. Amazing weekend and I recommend it!"
+            }
+        ]
+    }, 
+    "Texas": {
+        "averageMood": 0.0, 
+        "totalMood": 0.0, 
+        "totalTweets": 26, 
+        "tweets": [
+            {
+                "mood": -1.0, 
+                "text": "was going to wear my girls cheer uniform, but I didn't and now I'm regretting it because idk lol"
+            }, 
+            {
+                "mood": -1.0, 
+                "text": "I slept on the floor in my own room and let my sister sleep in my bed \ud83e\udd14"
+            }, 
+            {
+                "mood": -1.0, 
+                "text": " I did, but those suckers are so fast I didn't get a picture of that."
+            }, 
+            {
+                "mood": 1.0, 
+                "text": "This \ud83d\udc4c\ud83c\udffd https://t.co/dYv80cNsoI"
+            }, 
+            {
+                "mood": 1.0, 
+                "text": "My day today is going to be pretty fucking productive if you ask me"
+            }, 
+            {
+                "mood": 1.0, 
+                "text": "One of the most comfy coffee shop I have ever been \ud83d\ude0d @ Fourteen Eighteen Coffeehouse https://t.co/SUQebbkyss"
+            }, 
+            {
+                "mood": -1.0, 
+                "text": "My manager and a coworker  really tried to lie telling me they they told me come in today like just ask if I can come in don't lie."
+            }, 
+            {
+                "mood": 1.0, 
+                "text": "Interested in a #job in #Humble, TX? This could be a great fit: https://t.co/ak7FiEEuIt #Hiring #CareerArc"
+            }, 
+            {
+                "mood": 1.0, 
+                "text": "Thank you fam! \ud83d\ude0a https://t.co/33AM2nXRTk"
+            }, 
+            {
+                "mood": -1.0, 
+                "text": "When she sleep asf \ud83d\ude34 and you can't do anything about it&lt;&lt;&lt;I MISS YOU FKN WAKE UP!!!\ud83d\ude29"
+            }, 
+            {
+                "mood": 1.0, 
+                "text": "  thank you Mr Rabb! :)"
+            }, 
+            {
+                "mood": 1.0, 
+                "text": "Will build this love from the ground up"
+            }, 
+            {
+                "mood": 1.0, 
+                "text": "my professor so cute ... like she really does try. but I'm just not learning from her."
+            }, 
+            {
+                "mood": -1.0, 
+                "text": "I've been in class since 8.. It's 10.\nLET ME GO HOME"
+            }, 
+            {
+                "mood": -1.0, 
+                "text": " so lame you can't stop talking to me? \ud83e\udd14"
+            }, 
+            {
+                "mood": -1.0, 
+                "text": "I'm hungry af tbh"
+            }, 
+            {
+                "mood": -1.0, 
+                "text": "Bad. Ass. #SteadyEddie #Orioles https://t.co/BTsydbOKnS"
+            }, 
+            {
+                "mood": 1.0, 
+                "text": "Happy birthday "
+            }, 
+            {
+                "mood": -1.0, 
+                "text": "I'm so mad at myself for being so irresponsible"
+            }, 
+            {
+                "mood": -1.0, 
+                "text": "aw this made me sad https://t.co/IeRnESOyT7"
+            }, 
+            {
+                "mood": 1.0, 
+                "text": "These third parties.... 2000 election on repeat.  https://t.co/xBdAzYxLUE"
+            }, 
+            {
+                "mood": 1.0, 
+                "text": "Kimmy a model https://t.co/uEvhRwgjUH"
+            }, 
+            {
+                "mood": -1.0, 
+                "text": "literally the picture doesn't even fit the frame. next. https://t.co/xUWfyS9AzQ"
+            }, 
+            {
+                "mood": 1.0, 
+                "text": "It's Monday  https://t.co/zDOlcBfxwl"
+            }, 
+            {
+                "mood": -1.0, 
+                "text": " she ain't in that tier. All them rich bratty people she go to school with or are the staff or gov't kids. They fear nothing."
+            }, 
+            {
+                "mood": 1.0, 
+                "text": "My God is great. My God's timing is perfect. My God has a plan, and I fully trust in it. \ud83d\ude4f\ud83c\udffd"
+            }
+        ]
+    }, 
+    "Utah": {
+        "averageMood": 1.0, 
+        "totalMood": 1.0, 
+        "totalTweets": 1, 
+        "tweets": [
+            {
+                "mood": 1.0, 
+                "text": "Join the Jordan Valley Medical Center team! See our latest #job opening here: https://t.co/iqlRmJejMj #MedField https://t.co/f9WoM8lZxe"
+            }
+        ]
+    }, 
+    "Vermont": {
+        "averageMood": 0, 
+        "totalMood": 0, 
+        "totalTweets": 0, 
+        "tweets": []
+    }, 
+    "Virginia": {
+        "averageMood": 1.0, 
+        "totalMood": 1.0, 
+        "totalTweets": 1, 
+        "tweets": [
+            {
+                "mood": 1.0, 
+                "text": "This #job might be a great fit for you: Primary Care Physician - CHCN - Fairfax County Clinics, Fairfax, VA - https://t.co/AjrhH37Sai"
+            }
+        ]
+    }, 
+    "Washington": {
+        "averageMood": 1.0, 
+        "totalMood": 7.0, 
+        "totalTweets": 7, 
+        "tweets": [
+            {
+                "mood": 1.0, 
+                "text": " verify me"
+            }, 
+            {
+                "mood": 1.0, 
+                "text": "Join the Department of Veterans Affairs team! See our latest #job opening here: https://t.co/jjhvItyOV6 #Healthcare #Seattle, WA #Veterans"
+            }, 
+            {
+                "mood": 1.0, 
+                "text": " The real question is whether there's enough time in there for the Detroit Lions to actually win a Superbowl."
+            }, 
+            {
+                "mood": 1.0, 
+                "text": "If you're looking for work in #Seattle, WA, check out this #job: https://t.co/shxW3OCxNU #Banking #Hiring #CareerArc"
+            }, 
+            {
+                "mood": 1.0, 
+                "text": "Can you recommend anyone for this #job in #Richland, WA? https://t.co/N6kLbupTUo #Hiring #CareerArc"
+            }, 
+            {
+                "mood": 1.0, 
+                "text": "We're #hiring! Click to apply: Now Hiring Motorcoach Operators in Seattle - https://t.co/GUfPXbolHp #Job #CustomerService #Seattle, WA"
+            }, 
+            {
+                "mood": 1.0, 
+                "text": " You're So Pretty"
+            }
+        ]
+    }, 
+    "West Virginia": {
+        "averageMood": 0, 
+        "totalMood": 0, 
+        "totalTweets": 0, 
+        "tweets": []
+    }, 
+    "Wisconsin": {
+        "averageMood": 0.33333333333333331, 
+        "totalMood": 1.0, 
+        "totalTweets": 3, 
+        "tweets": [
+            {
+                "mood": 1.0, 
+                "text": " your twit pic is friendship goals"
+            }, 
+            {
+                "mood": 1.0, 
+                "text": "Thanks skyler! Loving the pic \ud83d\ude0e https://t.co/BeJPCl5btM"
+            }, 
+            {
+                "mood": -1.0, 
+                "text": "Im dying of thirst &amp; course the girl next to me has a cold ass bottle of Aquafina. Condensation dripping down the side &amp; everything.."
+            }
+        ]
+    }, 
+    "Wyoming": {
+        "averageMood": -1.0, 
+        "totalMood": -1.0, 
+        "totalTweets": 1, 
+        "tweets": [
+            {
+                "mood": -1.0, 
+                "text": "Twitter is the reason I can't calculus."
+            }
+        ]
+    }
+}
